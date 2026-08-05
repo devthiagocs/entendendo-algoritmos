@@ -25,7 +25,7 @@ public class PesquisaBinaria {
         //Como deve ser declarada um array, uma lista de int
         int[] minhaLista = {1, 3, 5, 7, 9};
 
-        System.out.println(pesquisaBinaria(minhaLista, 7));
+        System.out.println(pesquisaBinaria(minhaLista, 5));
         System.out.println(pesquisaBinaria(minhaLista, -1));
     }
 }
