@@ -5,7 +5,7 @@ public class ProcuraChaveRecursao { //Recursão é quando o método chama ele me
         for (Item item : caixa.getItens()) {
             if (item.eUmaCaixa()) {
                 procuraChaveRecursao((Caixa) item);
-            } else if (item.eUmaCaixa()){
+            } else if (item.eUmaChave()){
                 System.out.println("Achei a chave!");
             }
         }

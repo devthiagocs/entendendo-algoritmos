@@ -13,7 +13,7 @@ public class ProcuraChave {
             for (Item item : caixa.getItens()) { //Percorre todos os objetos dentro da caixa
                 if (item.eUmaCaixa()) { //Esse objeto é uma caixa?
                     pilha.push((Caixa) item); //Coloca a nova caixa na pilha
-                } else if (item.eUmaCaixa()){ //É uma chave?
+                } else if (item.eUmaChave()){ //É uma chave?
                     System.out.println("Achei a chave!");
                     
                     return;
