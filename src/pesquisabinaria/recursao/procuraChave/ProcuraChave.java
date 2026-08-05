@@ -1,4 +1,4 @@
-package pesquisabinaria.recursao;
+package pesquisabinaria.recursao.procuraChave;
 
 import java.util.Stack;
 
